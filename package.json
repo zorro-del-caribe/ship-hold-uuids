@@ -1,0 +1,35 @@
+{
+  "name": "ship-hold-uuids",
+  "version": "1.0.0",
+  "description": "Generate random uuids when inserting a new item whose primary key is a uuid using ship-hold data access framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "ship-hold",
+    "postgresql",
+    "postgre",
+    "database",
+    "orm",
+    "model",
+    "uuid",
+    "id"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zorro-del-caribe/ship-hold-uuids.git"
+  },
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "devDependencies": {
+    "ship-hold": "^1.0.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  }
+}
