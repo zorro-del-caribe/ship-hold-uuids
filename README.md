@@ -10,7 +10,8 @@ Generate random uuids when inserting a new item whose primary key is a uuid. (fo
 
 ## usage
 
-```
+```javascript
+
 const Users = sh.model('users',function(h){
     table:'users',
     columns:{
