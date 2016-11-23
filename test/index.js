@@ -1,7 +1,7 @@
 const test = require('tape');
 const shiphold = require('ship-hold');
 const extension = require('../index');
-const uuid = require('node-uuid');
+const uuid = require('uuid');
 
 function createModels () {
   const sh = shiphold();
